@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; connect-src 'self' https://mesto.nomoreparties.co; font-src 'self' data:;">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-B0c7XBCZ.js"></script>
+    <script type="module" crossorigin src="./assets/index-CCm2dt8o.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-wVvJ2UQt.css">
   </head>
   <body class="page">
@@ -54,6 +54,7 @@
                 minlength="2"
                 maxlength="40"
                 pattern="^[A-Za-zА-Яа-яЁё \-]+$"
+                data-error-message="Пожалуйста, используйте только буквы, пробелы и дефисы"
                 required
               />
               <span class="popup__error" id="user-name-error"></span>
@@ -97,6 +98,7 @@
                 minlength="2"
                 maxlength="30"
                 pattern="^[A-Za-zА-Яа-яЁё \-]+$"
+                data-error-message="Пожалуйста, используйте только буквы, пробелы и дефисы"
                 title="Только буквы, пробелы и дефисы"
                 required
               />
